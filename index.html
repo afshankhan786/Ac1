@@ -3,86 +3,66 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <title>SK-Enterprises</title>
   </head>
   <body>
-     <nav class="navbar navbar-expand-lg navbar-light bg-light f-hed ">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Menu</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active menu" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link menu" href="#">About</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle menu" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Services
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Ac Repair</a></li>
-            <li><a class="dropdown-item" href="#">Ac Installation</a></li>
-            <li><a class="dropdown-item" href="#">Ac Gas Filling</a></li>
-            <li><a class="dropdown-item" href="#">Ac Services</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light f-hed">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Menu</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link active menu" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link menu" href="#">About</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle menu" href="#" id="navbarDropdown" role="button"
+                 data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Ac Repair</a></li>
+                <li><a class="dropdown-item" href="#">Ac Installation</a></li>
+                <li><a class="dropdown-item" href="#">Ac Gas Filling</a></li>
+                <li><a class="dropdown-item" href="#">Ac Services</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link menu" href="#">Contact</a></li>
+            <li class="nav-item"><a class="nav-link disabled menu" href="#" tabindex="-1" aria-disabled="true">Disabled</a></li>
           </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link menu" href="#">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled menu" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
-      <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-dark" type="submit">Search</button>
-      </form>
-    </div>
-  </div>
-</nav>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-dark" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
 
-<!-- silider  -->
+    <!-- Slider -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner silider">
+        <div class="carousel-item active"><img src="./img/Ac-1.jpg" class="d-block w-100" alt="..."></div>
+        <div class="carousel-item"><img src="./img/A1.jpg" class="d-block w-100" alt="..."></div>
+        <div class="carousel-item"><img src="./img/Banner.jpg" class="d-block w-100" alt="..."></div>
+        <div class="carousel-item"><img src="./img/360_F.jpg" class="d-block w-100" alt="..."></div>
+        <div class="carousel-item"><img src="./img/A2.jpg" class="d-block w-100" alt="..."></div>
+        <div class="carousel-item"><img src="./img/hitachi-split.webp" class="d-block w-100" alt="..."></div>
+      </div>
+    </div>
 
-
-<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner silider">
-    <div class="carousel-item active">
-      <img src="IMG/Ac-1.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="IMG/A1.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="IMG/Banner.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="IMG/360_F.jpg" class="d-block w-100" alt="...">
-    </div>
-        <div class="carousel-item">
-      <img src="IMG/A2.jpg" class="d-block w-100" alt="...">
-    </div>
-        <div class="carousel-item">
-      <img src="IMG/hitachi-split.webp" class="d-block w-100" alt="...">
-    </div>
-  </div>
-</div>
-
-
-
+    <!-- Main Content -->
     <div class="container-fluid bg">
+      <!-- About Section -->
       <div class="about">
-        <h1>About Us | service Company</h1>
-        <p>
+        <h1>About Us | Service Company</h1>
+          <p>
           <span style="color: rgb(122, 119, 119); font-weight: 600">Gen service :</span>
           is a technology platform offering a variety of services at home.
           Customers use our platform to book services such as AC, Refrigerator,
@@ -93,8 +73,9 @@
         </p>
       </div>
 
+      <!-- Daikin Section -->
       <div class="daikin">
-        <p> <span style="color: rgb(122, 119, 119); font-weight: 600">Daikin :</span>
+         <p> <span style="color: rgb(122, 119, 119); font-weight: 600">Daikin :</span>
           AC Repair Service in Ghaziabad As the mercury level rises in the heat
           and dust of the city of Ghaziabad, people have come to rely on
           appliances, the Daikin Air conditioners in particular in their houses,
@@ -150,9 +131,8 @@
           today. <br />
         </p>
       </div>
-    
 
-
+      <!-- Importance Section -->
       <div class="Importance">
         <h2>Importance of Daikin Air Conditioners in City</h2>
         <p>Cooling and Daikin air-conditioning systems perform several different functions. They enhance comfort, improve indoor air quality, and create an excellent environment to work and enjoy life. These are summarized as the following points that can be evoked in city:</p>
@@ -175,64 +155,50 @@
     </div>
 
 
+    <!-- Footer -->
     <footer>
-    <div class="row">
-      <div class="Add">
-        <ul class="Add-list">
-          <li style="font-size: 20px; margin-left: 30px;">Address :</li>
-          <li> <i class="fa-solid fa-location-dot"></i>UP, Delhi NCR, India</li>
-          <li> <i class="fa-solid fa-phone"></i>+91 123654789</li>
-          <li> <i class="fa-solid fa-envelope"></i>official@genservice.com</li>
-        </ul>
+      <div class="row">
+        <div class="Add">
+          <ul class="Add-list">
+            <li style="font-size: 20px; margin-left: 30px;">Address :</li>
+            <li> <i class="fa-solid fa-location-dot"></i>UP, Delhi NCR, India</li>
+            <li> <i class="fa-solid fa-phone"></i>+91 123654789</li>
+            <li> <i class="fa-solid fa-envelope"></i>official@genservice.com</li>
+          </ul>
+        </div>
+        <div class="opne-h">
+          <ul class="opne-list">
+            <li style="font-size: 20px; margin-bottom: 8px;">Opening Hours</li>
+            <li>Monday - Friday: <br>07.00 AM - 10.00 PM</li>
+            <li>Saturday - Sunday: <br>07.00 AM - 8.00 PM</li>
+          </ul>
+        </div>
+        <div class="com">
+          <ul class="company">
+            <li style="font-size: 20px; margin-bottom: 8px;"><a href="#">Company</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="e-box">
+          <input type="email" name="email" required placeholder="Enter Email 📩" class="email">
+          <input type="submit" class="button">
+        </div>
+        <div class="footer_2">
+          <div class="f-row">
+            <span class="S1"><p class="LLC">Copyright © 2025 Genservice. All rights reserved</p></span>
+            <span class="icon"><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></span>
+            <span class="icon"><a href="#"><i class="fa-brands fa-x-twitter"></i></a></span>
+            <span class="icon"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></span>
+            <span class="icon"><a href="#"><i class="fa-brands fa-instagram"></i></a></span>
+          </div>
+        </div>
       </div>
-
-      <div class="opne-h">
-        <ul class="opne-list">
-          <li style="font-size: 20px; margin-bottom: 8px;">Opening Hours</li>
-          <li>Monday - Friday: <br>
-              07.00 AM - 10.00 PM</li>
-              <li>Saturday - Sunday: <br>
-                07.00 AM - 8.00 PM</li>
-        </ul>
-      </div>
-
-      <div class="com">
-        <ul class="company">
-          <li style="font-size: 20px; margin-bottom: 8px;"><a href="#">Company</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="#">Service</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Privacy Policy</a></li>
-        </ul>
-      </div>
-
-
-      <div class="e-box">
-        <input type="email" name="email" required placeholder="Enter Email  &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;📩" class="email">
-        <input type="submit" class="button">
-      </div>
-
-        
-      <div class="footer_2">
-            <div class="f-row">
-              <span class="S1">
-               <p class="LLC">Copyright © 2025 Genservice.All rights reserved</p>
-              </span>
-
-              <span class="icon"><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></span>
-              <span class="icon"><a href="#"><i class="fa-brands fa-x-twitter"></i></a></span>
-              <span class="icon"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></span>
-              <span class="icon"><a href="#"><i class="fa-brands fa-instagram"></i></a></span>
-              
-            </div>
-      </div>
-
-
-
-
-    </div>
     </footer>
 
+    <!-- JS -->
     <script src="./js/bootstrap.bundle.js"></script>
   </body>
 </html>
